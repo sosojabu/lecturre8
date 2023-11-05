@@ -15,4 +15,17 @@
     row-gap: 20px;
   }
    }  
-        
+   @media (max-width:768px ){
+    header {
+        padding: 0 15px;
+      }
+      .navigation {
+        display: none;
+      }
+     .burger-menu { 
+        display: block;
+        cursor: pointer;
+       
+     }
+    
+   }
