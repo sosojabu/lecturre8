@@ -1,0 +1,18 @@
+@media (max-width:768px ){
+    header {
+        max-width: 647px;
+        width: 100%;
+    }
+ .btn-section {
+   display: none;
+  }
+ .text-wraper p { 
+    width: 373px;
+    line-height: 28.8px;
+   } 
+   .cards-section {
+    padding: 0px 39px;
+    row-gap: 20px;
+  }
+   }  
+        
