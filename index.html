@@ -7,93 +7,260 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <title>Document</title>
+  <title>Portoflio</title>
 </head>
 <body>
-    <main>
-        <header>
-    <div class="naw-wraper">
-      <a href="Index.html"></a>
-      <img src="images/logo.svg.svg" alt="logo">
-      
-         <nav class="navigation">
-            <ul class="nav-list"> 
-                <li class="list-item"> 
-                    <a href="">home</a>
-                </li>
-                <li class="list-item"> 
-                    <a href="">Destination</a>
-                </li>
-                <li class="list-item"> 
-                    <a href="">near me</a>
-                </li>
-                <li class="list-item"> 
-                    <a href="">event</a>
-                </li>
-                <li class="list-item"> 
-                    <a href="">blog</a>
-                </li>
-            </ul>
-        </nav>
-        </div>
-         <div class="btn-section">
-            <a href="#">sign up</a>
-            <a href="#">sign in</a>
-        </div>
-       <img class="burger-menu" src="images/burgerMenu.svg" alt="">
-        </header>
-        <div class="text-wraper">
-            <h1> Find Yourself Outside </h1>
-             <p>Book unique camping experiences on over 300,000 campsites,
-                cabins, RV parks, public parks and more.</p>
-        <ahref="#" class="btn"> discover </a>
-            </div>
-            <section class="cards-section">          
-             <div class="card">
-                <div>
-                    <img src="images/fire.svg.svg" alt="">
-                </div>
-                  <div class="title">
-                    Camping & Day Use
-                  </div>
-                Return to your favorite spot or discover a new one that’s right for you.
-            </div>
-             <div class="card">
-                <div>
-                    <img src="images/fish.svg.svg" alt="">
-                </div>
-                <div class="title">
-                    Tours & Tickets
-                </div>
-                Reserve tours and tickets to participate in events.
-            </div>
-             <div class="card">
-                <div>
-                    <img src="images/paper.svg.svg" alt="">
-                </div>
-                  <div class="title">
-                    permits
-                  </div>
-                Obtain permits for access to high- demand locations.
-            </div>
-             <div class="card">
-                <div>
-                    <img src="images/tickets.svg.svg" alt="">
-                </div>
-                  <div class="title">
-                    Recreation Activities
-                  </div>
-                Find the best spots for hunting, fishing & recreational shooting.
-             </div>
-            </sectioon>
-              <section class="explore">
-            <div class="new-page">
-                <img src="images/destination.svg.svg" alt="">
-                 <p>
+  <header>
+    <div class="container">
+      <div class="logo" style="display: flex; align-items: center">
+        <a href="https://geolab.edu.ge/" style="width: 50px">
+          <img src="images/geolab-logo-georgian.svg" alt="geolab" />
+        </a>
+        <a href="index.html" class="logo">TechnoShop</a>
+      </div>
 
-                 </p>
-            </div>
-              </section>
-      </main>
+      <nav>
+        <a href="https://geolab.edu.ge/" target="_blank">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html" target="_blank"
+                >კომპიუტერული და საოფისე ტექნიკა</a
+              >
+            </li>
+            <li><a href="#Skills">ტელეფონები</a></li>
+            <li><a href="#About"> ტელევიზორები</a></li>
+          </ul>
+        </a>
+      </nav>
+      <div class="form-section">
+        <form action="">
+          <div class="შესვლა-რეგისტრაცია-wrapper">
+            <input type="text" placeholder="შესვლა" class="შესვლა-input" />
+            <input
+              type="text"
+              placeholder="რეგისტრაცია"
+              class="რეგისტრაცია-input"
+            />
+          </div>
+        </form>
+      </div>
+      <img src="images/burgerMenu.svg" style="display: none" alt="" />
+    </div>
+  </header>
+  <!--<main>
+    <div class="main-container">
+      <div class="text-wrapper">
+        <p>ახალი წლის შეთავაზებები</p>
+        <img src="images/cover.png" alt="" />
+        <p>უფასო მიწოდება 50 ლარის ზემოთ</p>
+        <a href="#About" class="learn-more">
+          მოგესალმებით! რით შეგვიძლია დაგეხმაროთ?
+        </a>
+      </div>
+    </div>
+  </main>-->
+
+  <main>
+    <div class="main-container">
+      <div class="text-wrapper">
+        <p>ახალი წლის შეთავაზებები</p>
+        <h1><img src="images/cover.png" alt="" /></h1>
+        <p>უფასო მიწოდება 50 ლარის ზემოთ</p>
+        <div>
+          <a href="#About" class="learn-more">
+            მოგესალმებით! რით შეგვიძლია დაგეხმაროთ?
+          </a>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="" alt="" />
+      </div>
+    </div>
+  </main>
+  <section class="projects" id="projects">
+    <div class="projects-container">
+      <h2 class="projects-title">მხოლოდ ონლაინ</h2>
+      <div class="projects-cards">
+        <div class="project">
+          <div class="img-container"></div>
+
+          <h3 class="project-title">UDTV 55U6210 Smart</h3>
+          <p class="description">
+            ტელევიზორი LED Smart TV 75"(190cm)/ LG 75UR80006LJ 3518.9₾
+          </p>
+          <h4 class="project-tech-title">პროდუქტის კოდი: 138072</h4>
+          <ul class="stack-list">
+            <li>მარაგშია</li>
+            <li></li>
+          </ul>
+
+          <div class="links-section">
+            <a href="https://geolab.edu.ge/" target="_blank" class="btn"
+              >Features</a
+            >
+            <a href="https://geolab.edu.ge/" target="_blank" class="btn"
+              >Live Version</a
+            >
+          </div>
+        </div>
+        <div class="project">
+          <div class="img-container"></div>
+
+          <h3 class="project-title">LG 34" Curved UltraWide smart</h3>
+          <p class="description">
+            ტელევიზორი LED Smart TV 75"(190cm)/ LG 75UR80006LJ 2899.9₾
+          </p>
+
+          <h4 class="project-tech-title">პროდუქტის კოდი: 139647</h4>
+          <ul class="stack-list">
+            <li>მარაგშია</li>
+            <li></li>
+          </ul>
+
+          <div class="links-section">
+            <a href="https://geolab.edu.ge/" target="_blank" class="btn"
+              >Features</a
+            >
+            <a href="https://geolab.edu.ge/" target="_blank" class="btn"
+              >Live Version</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="skills-title">ახალი წლის შეთავაზებები</h2>
+    <div class="skills-list">
+      <div class="skill-card">
+        <img src="images/marshal majjor.webp" alt="" />
+        <h3 class="skill-title">
+          Marshall Major IV ჯამური ფასი 1404.55 ₾ 1226 ₾
+        </h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/apple.webp" alt="" />
+        <h3 class="skill-title">
+          Apple Watch Ultra 2 ჯამური ფასი 2499 ₾ 2199 ₾
+        </h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/airpod.webp" alt="" />
+        <h3 class="skill-title">
+          Samsung SM-R400 Galaxy 2 ჯამური ფასი 789 ₾ 649 ₾
+        </h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/iphone.webp" alt="" />
+        <h3 class="skill-title">
+          Apple iPhone 15 Pro 2 ჯამური ფასი 3799 ₾ 3459 ₾
+        </h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="skills-title">მობილური ტელეფონები</h2>
+
+    <div class="skills-list">
+      <div class="skill-card">
+        <img src="images/galaxy.webp" alt="" />
+        <h3 class="skill-title">Samsung Galaxy S23</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/iphone 15.webp" alt="" />
+        <h3 class="skill-title">Apple iPhone 15 Pro</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/xiamoi.webp" alt="" />
+        <h3 class="skill-title">Xiaomi Redmi 13C</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/google pixel.webp" alt="" />
+        <h3 class="skill-title">Google Pixel 8</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="skills-title">ლეპტოპები</h2>
+
+    <div class="skills-list">
+      <div class="skill-card">
+        <img src="images/hb victus.webp" alt="" />
+        <h3 class="skill-title">HP Victus 15</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/acer.webp" alt="" />
+        <h3 class="skill-title">Acer Aspire 5</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/lenovo.webp" alt="" />
+        <h3 class="skill-title">Lenovo IdeaPad Slim 3</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/asus.webp" alt="" />
+        <h3 class="skill-title">Asus VivoBook 16</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="skills-title">ახალი მოდელები</h2>
+
+    <div class="skills-list">
+      <div class="skill-card">
+        <img src="images/xbox.webp" alt="" />
+        <h3 class="skill-title">Microsoft Xbox Series X 1TB</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/asus rog.webp" alt="" />
+        <h3 class="skill-title">Asus ROG Ally RC71L Z1</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/jbl.webp" alt="" />
+        <h3 class="skill-title">JBL PartyBox Ultimate Black</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/padd.webp" alt="" />
+        <h3 class="skill-title">Xiaomi Pad SE 8</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="About">
+    <img src="images/bog_footer.png" alt="" />
+    <h2 class="about-title">ჩემს შესახებ</h2>
+    <p class="about-description-1">
+      საიტის მოხმარების წესები და პირობები პერსონალური მონაცემების პოლიტიკა
+      დაბრუნების პირობები მონტაჟის და ექსპლუატაციის წესები საიტზე შეცდომის
+      დაფიქსირება გამათბობლებისა და კონდიციონერების მონტაჟის წესები და
+      პირობები მიწოდების წესები და პირობები როგორ შევიძინო?
+    </p>
+
+    <p class="about-description-2">
+      გარანტია ფიზიკური პირებისთვის გარანტია ორგანიზაციებისთვის კანონისმიერი
+      გარანტია სერვისცენტრის მისამართები
+    </p>
+  </section>
+
+  <footer id="Contact">
+    <div class="footer-container">
+      <div class="footer-contact">
+        <div>
+          <a href="tel:500-500-500" class="tel">Tel: 500-500-500</a>
+        </div>
+        <a href="mailto:sosojabua.geolab.com" class="email"
+          >Gmail: soso.jabua35b.geolab.edu.com</a
+        >
+      </div>
+      <div class="footer-links">
+        <p class="footer-desc">
+          ორშაბათი - კვირა: 11:00 - 20:00- თბილისი, ალ. ყაზბეგის #35ბ
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
